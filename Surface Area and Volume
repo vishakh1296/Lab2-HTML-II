@@ -1,0 +1,6 @@
+function getSize(width, height, depth)
+{
+  const area = (depth * width + depth * height + width * height) * 2
+  const volume = width * height * depth
+  return [area, volume]
+}
